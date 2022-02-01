@@ -27,7 +27,8 @@ body {
   border-color: transparent;
   color: rgb(140, 0, 255);
 }
-z .btn:hover {
+
+.btn:hover {
   background-color: rgb(79, 10, 190);
   border-color: rgb(79, 10, 190);
 }
