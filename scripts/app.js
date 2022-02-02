@@ -1,4 +1,12 @@
 "use strict";
+
+let editedPlayer = 0;
+
+const players = [
+  { name: "", symbol: "X" },
+  { name: "", symbol: "O" },
+];
+
 const playerConfigOverlayEl = document.getElementById("config-overlay");
 const backdropEl = document.getElementById("backdrop");
 const fromEl = document.querySelector("form");
